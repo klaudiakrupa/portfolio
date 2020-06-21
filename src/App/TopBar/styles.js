@@ -29,9 +29,9 @@ export default {
     font-weight: 600;
     font-size: 1.1rem;
     color: #917e41;
-    letter-spacing: 0.08rem;
     padding-bottom: 3px;
     border-bottom: 8px solid rgba(0, 0, 0, 0);
+    text-decoration: none;
 
     &:hover {
       border-bottom: 8px solid #fece2f;

@@ -13,7 +13,13 @@ const TopBarComponent = () => {
         <MenuItem>o mnie</MenuItem>
         <MenuItem>portfolio</MenuItem>
         <MenuItem>umiejętności</MenuItem>
-        <MenuItem>pobierz CV</MenuItem>
+        <MenuItem
+          href="/CV_Klaudia_Krupa.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          pobierz CV
+        </MenuItem>
         <MenuItem>kontakt</MenuItem>
       </Menu>
     </TopBar>

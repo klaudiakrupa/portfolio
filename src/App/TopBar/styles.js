@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export default {
   TopBar: styled.div`
-    width: 100%;
+    width: 88%;
+    margin: 0 auto;
     padding: 2rem;
     display: flex;
     align-items: center;

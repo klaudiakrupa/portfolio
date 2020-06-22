@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export default {
   Main: styled.div`
-    width: 100%;
+    width: 88%;
     margin: auto;
     padding: 2rem;
     display: flex;
@@ -10,7 +10,7 @@ export default {
   Content: styled.div`
     width: 55%;
   `,
-  WelcomeInLanguages: styled.h5`
+  WelcomeInLanguages: styled.h6`
     color: #1a1a1a;
     font-size: 1.2rem;
     font-weight: 400;

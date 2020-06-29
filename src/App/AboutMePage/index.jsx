@@ -11,7 +11,7 @@ const AboutMePage = () => {
         <Photo src="/photo.png" />
       </PhotoBox>
       <Text>
-        <Header>o mnie</Header>
+        <Header text="o mnie" />
         <Description>
           Jestem <b>React.JS Developerem</b> od około roku.
           <br />

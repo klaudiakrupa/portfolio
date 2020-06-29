@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import ReactTypingEffect from "react-typing-effect";
 
 export default {
   Main: styled.div`
@@ -17,7 +18,8 @@ export default {
     width: 40rem;
   `,
   Text: styled.div``,
-  Header: styled.div`
+  Header: styled(ReactTypingEffect)`
+    font-family: "Montserrat", sans-serif;
     font-size: 5rem;
     font-weight: 700;
   `,

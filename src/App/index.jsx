@@ -8,17 +8,27 @@ import PortfolioPage from "./PortfolioPage";
 import SkillsPage from "./SkillsPage";
 import ContactPage from "./ContactPage";
 
-const { Main } = components;
+const { Main, SectionContainer } = components;
 
 const App = () => {
   return (
     <Main>
-      <TopBar />
-      <WelcomePage />
-      <AboutMe />
-      <PortfolioPage />
-      <SkillsPage />
-      <ContactPage />
+      <SectionContainer>
+        <TopBar />
+        <WelcomePage />
+      </SectionContainer>
+      <SectionContainer>
+        <AboutMe />
+      </SectionContainer>
+      <SectionContainer>
+        <PortfolioPage />
+      </SectionContainer>
+      <SectionContainer>
+        <SkillsPage />
+      </SectionContainer>
+      <SectionContainer>
+        <ContactPage />
+      </SectionContainer>
     </Main>
   );
 };

@@ -38,10 +38,14 @@ export default {
     line-height: 3.6rem;
     font-size: 1.2rem;
     transition: all 0.3s;
-    text-decoration: none;
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 
     &:hover {
       background-color: #1a1a1a;
     }
+  `,
+
+  CVLink: styled.a`
+    text-decoration: none;
   `,
 };

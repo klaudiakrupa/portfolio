@@ -55,7 +55,7 @@ export default {
     padding: 0 0.5rem;
 
     &:hover {
-      opacity: 0.6;
+      opacity: 0.7;
     }
   `,
 };

@@ -3,8 +3,8 @@ import styled from "styled-components";
 export default {
   Main: styled.div`
     width: 100%;
+    height: 100%;
     color: #1a1a1a;
-    background-color: #fff;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -12,7 +12,17 @@ export default {
   Header: styled.div`
     font-size: 5rem;
     font-weight: 700;
+    padding: 4rem 0;
   `,
+
+  Categories: styled.div`
+    display: flex;
+    padding-bottom: 1rem;
+    width: 38%;
+    margin: 0 auto;
+    justify-content: space-evenly;
+  `,
+
   Category: styled.div`
     cursor: pointer;
     transition: all 0.3s;
@@ -32,5 +42,15 @@ export default {
       `
     border-bottom: 8px solid #fece2f;
     `}
+  `,
+
+  Skills: styled.div`
+    display: flex;
+    width: 70%;
+    height: -webkit-fill-available;
+    margin: auto auto;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
   `,
 };

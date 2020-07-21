@@ -17,7 +17,7 @@ const {
 
 const WelcomePage = () => {
   return (
-    <Main>
+    <Main id="welcome">
       <Content>
         <WelcomeInLanguages>
           Good morning! / Ciao! / Guten Morgen! / Привет!
